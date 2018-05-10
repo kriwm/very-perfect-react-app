@@ -1,0 +1,13 @@
+.container{
+    background: white;
+}
+@media screen and (max-width: 600px) {
+    .phone p.number,
+    .phone p.working,
+    .scroll .button.button,
+    .menu div.dropdown,
+    .headerImage img.image{
+        display: none;
+    }
+}
+

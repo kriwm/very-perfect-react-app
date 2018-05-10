@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body,
+.app {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.header {
+    height: 100px;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    
+    img {
+        height: 100%;
+        object-fit: contain;
+        display: flex;
+        flex: 1;
+    }
+    
+    h1 {
+        display: flex;
+        flex: 9;
+        align-items: center;
+        justify-content: center;
+        color: white;
+    }
+}

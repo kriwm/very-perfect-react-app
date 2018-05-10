@@ -1,0 +1,35 @@
+.pizza {
+    height: 360px;
+    width: 390px;
+    background: rgb(170, 57, 57);
+    margin: 40px 60px;
+    border-radius: 30px;
+    font-style: Georgia, serif;
+    padding: 10px;
+    min-width: 300px;
+    
+}
+
+.pizza>h1 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.pizza>img {
+    border-radius: 30px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.pizza>p {
+    text-align: center;
+    font-style: Georgia, serif;
+    font-size: 20px;
+}
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
